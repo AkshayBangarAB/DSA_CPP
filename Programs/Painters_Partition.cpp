@@ -70,9 +70,6 @@ class Solution
   }
     long long minTime(int arr[], int n, int k){
         // code here
-        if(k>n){
-            return -1;
-        }
         long long start =0;
         long long end = 0;
         for(int i=0; i<n; i++){
