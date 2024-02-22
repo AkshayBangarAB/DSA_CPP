@@ -3,7 +3,13 @@
 #include <string.h>
 using namespace std;
 
+void solve(int *p){
+    *p = *p + 10;
+    cout <<"Inside fun address stored at p is: "<< p <<endl;
+    cout <<"Inside fun address of p is: "<< &p <<endl;
+    cout<< "Inside the function value of a is: "<<*p<< endl;
 
+}
 int main() {
 
     // int arr[4] = {10,20,30,40};
@@ -33,6 +39,26 @@ int main() {
 //    int arr[4] = {10,20,30,40};
 //    int* p = arr;
 //    cout << p << endl;
+
+// good practice
+// char ch[15]= "Akshay Bnagar";
+// cout<< ch<< endl;
+
+// Bad Practice 
+// char* c = "Akshay Bangar";
+// cout << c<< endl;
+
+
+
+int a = 5;
+cout << "Address of a is: "<<&a<<endl;
+int* ptr = &a;
+cout << "Address stored in ptr is: "<< ptr<< endl;
+cout << "Address of ptr is: "<< &ptr<< endl;
+cout <<"Before the function calling Value is : "<< *ptr << endl;
+
+solve(ptr);
+cout << "After function calling: " << *ptr << endl;
 
     return 0;
 }
