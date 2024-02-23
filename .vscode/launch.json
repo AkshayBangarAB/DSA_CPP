@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/User/Desktop/DSA_C++/Pointers",
-      "program": "c:/Users/User/Desktop/DSA_C++/Pointers/build/Debug/outDebug",
+      "cwd": "c:/Users/User/Desktop/DSA_C++/Recursion",
+      "program": "c:/Users/User/Desktop/DSA_C++/Recursion/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
